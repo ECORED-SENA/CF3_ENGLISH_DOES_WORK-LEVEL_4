@@ -5,15 +5,82 @@
     top: 40%
     right: 50%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: scale 4.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    left: 5%
+  &-3
+    // animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 5%
+    left: -112%
 
 
-@keyframes float1
+@keyframes scale
   0%
-    transform: translateY(20px)
+    transform: scale(1.1)
 
   100%
-    transform: translateY(0px)
+    transform: scale(1.2)
+
+.banner-principal__img
+  img
+    width: 85%
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/banner-interno.png') !important
+.carousel-control-next, .carousel-control-prev
+  background-color: $color-primario
+  opacity: 1
+.carousel-control-next-icon, 
+  background-image:  url('../assets/curso/temas/flecha-azul.svg') !important
+.carousel-control-prev-icon
+  background-image:  url('../assets/curso/temas/flecha-azul.svg') !important
+  transform: rotate(180deg)
+.carousel-indicators
+  display: none
+.contenedor-franja
+  position: relative
+  .franja
+    background-color: $color-acento-contenido
+    height: 75%
+    width: 100%
+    position: absolute
+    bottom: 0
+    left: 0
+  .contenido
+    position: relative
+.contenedor-traductor
+  position: relative
+  background-color: #e1e8ff
+  padding: 2em
+  border-radius: 10px
+  transition: height 0.5s ease-in-out
+  &__esp
+    border-top: 3px solid #69727c
+    padding-top: 1em
+  .boton-traduccion
+    position: absolute
+    bottom: 0
+    right: 0
+    transform: translateY(100%) translateX(-13%)
+    background-color: $color-secundario
+    border-radius: 0px 0px 10px 10px
+    padding: 0.5em 1em
+    color: #fff
+    font-weight: bold
+    cursor: pointer
+    &:hover
+      background-color: darken(#6484f1, .8 )
+.mostrar
+  display: none
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-contenido
+  opacity: 1
+  border: 0px
+  background-image: url('../assets/curso/temas/flecha-blanca.svg') !important
+.slyder-a__bullets
+  display: none
+.dialogo__chat__item__message
+  button.dialogo__chat__item__message__translate-btn
+    display: none
+      
