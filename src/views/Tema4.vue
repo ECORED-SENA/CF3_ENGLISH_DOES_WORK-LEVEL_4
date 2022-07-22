@@ -29,7 +29,7 @@
             | Sacar fotocopias
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/28.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/2.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Write letters
 
@@ -37,7 +37,7 @@
             | Escribir cartas
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/29.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/3.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Send messages
 
@@ -45,7 +45,7 @@
             |  Enviar mensajes
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/30.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/4.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Attend meetings
 
@@ -53,7 +53,7 @@
             |  Asistir a reuniones
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/31.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/5.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Write reports
 
@@ -61,7 +61,7 @@
             | Escribir reportes
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/32.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/6.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Fill in surveys
 
@@ -69,7 +69,7 @@
             | Llenar encuestas
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/33.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/7.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Make breakfast
 
@@ -77,7 +77,7 @@
             | Hacer desayuno
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/34.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/8.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Read the newspaper
 
@@ -85,7 +85,7 @@
             | Leer el periódico
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/35.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/9.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Deliver newspaper
 
@@ -93,7 +93,7 @@
             | Entregar periódicos
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/36.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/10.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Go to the library
 
@@ -101,7 +101,7 @@
             | Ir a la biblioteca
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/37.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/11.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Mow the grass
 
@@ -109,7 +109,7 @@
             | Cortar el césped, cortar el pasto
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/38.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/12.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Milk cows
 
@@ -117,7 +117,7 @@
             | Ordeñar vacas
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/39.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/13.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Go to the movies
 
@@ -125,7 +125,7 @@
             | Ir al cine
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/40.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/14.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Dine out
 
@@ -133,7 +133,7 @@
             |Cenar fuera, salir a cenar
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/41.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/15.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Play a football match
 
@@ -141,7 +141,7 @@
             | Jugar un partido de fútbol
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/42.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/16.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Go to school 
 
@@ -149,7 +149,7 @@
             | Ir a la escuela, ir al colegio
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/43.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/17.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Have classes
 
@@ -157,7 +157,7 @@
             | Tener clases
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/44.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/18.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Have a drink 
 
@@ -165,7 +165,7 @@
             | Tomar una copa, tomar una bebida, tomar un trago
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/45.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/19.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Meet with friends
 
@@ -173,7 +173,7 @@
             | Reunirse con amigos
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/46.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema1/20.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Have a family meal
 

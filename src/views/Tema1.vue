@@ -28,7 +28,7 @@
           p.fst-italic
             span.r-4 To talk about events that were happening or in progress at a particular time in the past (starting before and ending after the time in question). It is usually used with an expression of time: 6 p.m., yesterday, last night, etc.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
-            texto="I was doing my homework at 5:00 p.m."
+            texto="I was doing homework at 5:00 p.m."
             :audio="require('@/assets//audios/tema1/1.mp3')"
           )
       .row(titulo="<span class= r-4 fst-italic><em>When an action is interrupted by anothe</em></span> / Cuando una acción es interrumpida por otra ").px-5
@@ -39,7 +39,7 @@
             span.r-4 To talk about an action that was interrupted. For that other action or event that interrupts the action stated in the past progressive, we use the simple past tense.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto="He was skating when he fell."
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/2.mp3')"
           )
       .row(titulo="<span class= r-4 fst-italic><em>When two or more situations occur at the same time</em></span> / Cuando dos o más situaciones ocurren al mismo tiempo").px-5
         .col-md-3
@@ -49,7 +49,7 @@
             span.r-4 To talk about two or more events that were happening or in progress at a particular time in the past, at the same time.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto="While they were studying we were playing soccer."
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/3.mp3')"
           )
       .row(titulo="<span class= r-4 fst-italic><em>When we add context or emphasis to a certain action</em></span> / Cuando se da contexto o énfasis a una determinada acción").px-5
         .col-md-3
@@ -59,7 +59,7 @@
             span.r-4 We often use the past continuous to give a reason or context for an event.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto="I didn't go to the party last weekend, I was studying for my exams."
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/4.mp3')"
           )
       .row(titulo="<span class= r-4 fst-italic><em>For “background events”</em></span> / Para “eventos de fondo”").px-5
         .col-md-3
@@ -69,7 +69,7 @@
             span.r-4 When one action or event is more important than another in the past, we can use the past progressive for the background event (the less important event) and past simple for the main event.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto="Diana was watering her neighbor's plants while he was on vacation."
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/5.mp3')"
           )
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-bold For the past progressive tense, the verb "to be" is used, conjugated in the simple past, as an auxiliary. Let's remember how to conjugate it:
@@ -102,7 +102,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="I was"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/6.mp3')"
                   )
               tr
                 td 
@@ -113,7 +113,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="you were"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/7.mp3')"
                   )
               tr
                 td(rowspan='3') 
@@ -123,19 +123,19 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="he was"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/8.mp3')"
                   )
               tr
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="she was"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/9.mp3')"
                   )
               tr
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="it was"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/10.mp3')"
                   )
               tr
                 td(rowspan='3').text-center.fw-bold Plural
@@ -146,7 +146,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="it was"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/11.mp3')"
                   )
               tr
                 td 
@@ -157,7 +157,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="you were"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/12.mp3')"
                   )
               tr
                 td 
@@ -168,7 +168,7 @@
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="they were"
-                  :audio="require('@/assets//audios/tema1/1.mp3')"
+                  :audio="require('@/assets//audios/tema1/13.mp3')"
                   )
           
     
@@ -288,7 +288,7 @@
                   | buying coffee when the doctor called them.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/14.mp3')"
           )
         .slyder.px-5.mx-4
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
@@ -323,7 +323,7 @@
                   | cooking lasagna.
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/15.mp3')"
           )
         .slyder.px-5.mx-4
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
@@ -366,7 +366,7 @@
                   | they buying coffee?
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/16.mp3')"
           )
         .slyder.px-5.mx-4
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
@@ -410,7 +410,7 @@
                   | they buying a house a year ago?
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
-            :audio="require('@/assets//audios/tema1/1.mp3')"
+            :audio="require('@/assets//audios/tema1/17.mp3')"
           )
     .row.justify-content-center.mb-5
       .col-lg-6

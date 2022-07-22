@@ -68,33 +68,33 @@
                   span.r-3.fst-italic.fw-normal.ms-3.mb-4 Verb to be in past: 
                   TarjetaAudio.color-acento-botones.bg-white.my-3(
                     texto="He said he was tired."
-                    :audio="require('@/assets//audios/tema1/1.mp3')"
+                    :audio="require('@/assets//audios/tema1/2.mp3')"
                   )
               tr
                 td 
                   span.r-3.fst-italic.fw-normal.ms-3.mb-4 Present Simple:
                   TarjetaAudio.color-acento-botones.bg-white.my-3(
                     texto="I play soccer."
-                    :audio="require('@/assets//audios/tema1/1.mp3')"
+                    :audio="require('@/assets//audios/tema1/3.mp3')"
                   )
                 td 
                   span.r-3.fst-italic.fw-normal.ms-3.mb-4 Simple Past:
                   TarjetaAudio.color-acento-botones.bg-white.my-3(
                     texto="He said he played soccer."
-                    :audio="require('@/assets//audios/tema1/1.mp3')"
+                    :audio="require('@/assets//audios/tema1/4.mp3')"
                   )
               tr
                 td 
                   span.r-3.fst-italic.fw-normal.ms-3.mb-4 Present continuous:
                   TarjetaAudio.color-acento-botones.bg-white.my-3(
                     texto="I am working hard."
-                    :audio="require('@/assets//audios/tema1/1.mp3')"
+                    :audio="require('@/assets//audios/tema1/5.mp3')"
                   )
                 td 
                   span.r-3.fst-italic.fw-normal.ms-3.mb-4 Past Continuous: 
                   TarjetaAudio.color-acento-botones.bg-white.my-3(
                     texto="He said he was working hard."
-                    :audio="require('@/assets//audios/tema1/1.mp3')"
+                    :audio="require('@/assets//audios/tema1/6.mp3')"
                   )
     Separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
@@ -140,7 +140,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="David: “I live in this house.”"
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/7.mp3')"
               )
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
             h6.mb-0.me-4.text-white Report
@@ -150,7 +150,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="David said he lived in that house"
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/8.mp3')"
               )
           div(style='background-color: #ffd947').p-3.d-inline-block.mb-3
             h6.mb-0.me-4 Speech
@@ -160,7 +160,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="George: “I know these people.”"
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/9.mp3')"
               )
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
             h6.mb-0.me-4.text-white Report
@@ -170,7 +170,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="George said he knew those people."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/10.mp3')"
               )
       .col-lg-6
         div(style='background-color: #3c3fa7').p-4
@@ -186,7 +186,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="Speech → Daniel: “I sell cars”"
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/11.mp3')"
               )
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
             h6.mb-0.me-4.text-white Report
@@ -196,7 +196,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="Daniel said he sold cars. / Daniel said that he sold cars."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/12.mp3')"
               )
           h5.fst-italic.mb-3
             span.r-4 Asked if: For questions.
@@ -208,7 +208,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="Sara: “Do you clean the door?”"
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/13.mp3')"
               )
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
             h6.mb-0.me-4.text-white Report
@@ -218,7 +218,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="Sara asked if you cleaned the door."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/14.mp3')"
               )
           h5.fst-italic.mb-3
             span.r-4 Told someone to: For imperative sentences.
@@ -230,7 +230,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="Manuel: “Call Sara!”"
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/15.mp3')"
               )
           div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
             h6.mb-0.me-4.text-white Report
@@ -240,7 +240,7 @@
             .col-lg-7
               TarjetaAudio.color-acento-botones.bg-white.my-3(
                 texto="Manuel told me to call Sara."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/16.mp3')"
               )
     p.mb-5(data-aos='fade-right') A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema.    
     Dialogo.color-acento-contenido(:dialogo="dialogo")

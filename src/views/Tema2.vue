@@ -59,7 +59,7 @@
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="Sandra can come here whenever she wants."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/2.mp3')"
               )
           tr
             td.text-center
@@ -72,7 +72,7 @@
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="Sandra can come here whenever she wants."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/3.mp3')"
               )
           tr
             td.text-center
@@ -85,7 +85,7 @@
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="I washed the dishes after dinner."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/4.mp3')"
               )
           tr
             td.text-center
@@ -98,7 +98,7 @@
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="It started snowing as he was leaving his house."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/5.mp3')"
               )
           tr
             td.text-center
@@ -111,7 +111,7 @@
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="The plane does not leave until ten o'clock."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/6.mp3')"
               )
           tr
             td.text-center
@@ -124,7 +124,7 @@
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
                 texto="The plane does not leave until ten o'clock."
-                :audio="require('@/assets//audios/tema1/1.mp3')"
+                :audio="require('@/assets//audios/tema1/7.mp3')"
               )
     p.mb-5(data-aos='fade-right') A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema.
     Dialogo.color-acento-contenido(:dialogo="dialogo")
