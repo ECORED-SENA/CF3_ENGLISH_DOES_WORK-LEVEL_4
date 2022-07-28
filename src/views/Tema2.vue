@@ -25,21 +25,21 @@
       table.tabla-1
         tr
           th(style='background-color: #e1e8ff') 
-            span.r-4.fst-italic Adverbs of time <br>
+            span.r-3.fst-italic Adverbs of time <br>
             span.fw-bold Adverbios de tiempo
             
           th(style='background-color: #c4d1ff')
-            span.r-4.fst-italic Function
+            span.r-3.fst-italic Function
             span.fw-bold /Función
           th(style='background-color: #ffe891')
-            span.r-4.fst-italic Example sentence
+            span.r-3.fst-italic Example sentence
             span.fw-bold /Oración de ejemplo
         tbody
           tr
             td.text-center
-              span.r-4.fst-italic When
+              span.r-3.fst-italic When
             td
-              span.r-4.fst-italic Used for talking about a particular time or situation.
+              span.r-3.fst-italic Used for talking about a particular time or situation.
               br
               br
               p Se utiliza para hablar de un momento o situación en particular.
@@ -50,9 +50,9 @@
               )
           tr
             td.text-center
-              span.r-4.fst-italic Whenever
+              span.r-3.fst-italic Whenever
             td
-              span.r-4.fst-italic It makes reference to “any time or any situation when something may be wanted, needed, possible”, etc.
+              span.r-3.fst-italic It makes reference to “any time or any situation when something may be wanted, needed, possible”, etc.
               br
               br
               p Hace referencia a "cualquier momento o cualquier situación en que algo pueda ser querido, necesario, posible", etc.
@@ -63,9 +63,9 @@
               )
           tr
             td.text-center
-              span.r-4.fst-italic Before
+              span.r-3.fst-italic Before
             td
-              span.r-4.fst-italic It makes reference to “a previous occasion”.
+              span.r-3.fst-italic It makes reference to “a previous occasion”.
               br
               br
               p Hace referencia a “una ocasión anterior”.
@@ -76,9 +76,9 @@
               )
           tr
             td.text-center
-              span.r-4.fst-italic After
+              span.r-3.fst-italic After
             td
-              span.r-4.fst-italic It makes reference to “a later time, afterwards, behind in time, later, next”, etc.
+              span.r-3.fst-italic It makes reference to “a later time, afterwards, behind in time, later, next”, etc.
               br
               br
               p Hace referencia a “un momento posterior, después, atrasado en el tiempo, más tarde, próximo”, etc.
@@ -89,9 +89,9 @@
               )
           tr
             td.text-center
-              span.r-4.fst-italic As
+              span.r-3.fst-italic As
             td
-              span.r-4.fst-italic To indicate that something happens “at the same time that, while, when”.
+              span.r-3.fst-italic To indicate that something happens “at the same time that, while, when”.
               br
               br
               p Para indicar que algo sucede “al mismo tiempo que, mientras, cuando”.
@@ -102,9 +102,9 @@
               )
           tr
             td.text-center
-              span.r-4.fst-italic Until
+              span.r-3.fst-italic Until
             td
-              span.r-4.fst-italic It refers to “up to (a time) that, the moment in time after which the rest of your statement becomes true.”
+              span.r-3.fst-italic It refers to “up to (a time) that, the moment in time after which the rest of your statement becomes true.”
               br
               br
               p Se refiere a “hasta (un tiempo) que, el momento en el tiempo después del cual el resto de su declaración se vuelve verdadera”.
@@ -115,9 +115,9 @@
               )
           tr
             td.text-center
-              span.r-4.fst-italic Since
+              span.r-3.fst-italic Since
             td
-              span.r-4.fst-italic It makes reference to “from then until now, at some or any time between then and now; subsequently”.
+              span.r-3.fst-italic It makes reference to “from then until now, at some or any time between then and now; subsequently”.
               br
               br
               p Hace referencia a “desde entonces hasta ahora, en algún momento o en cualquier momento entre entonces y ahora; después".

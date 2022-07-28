@@ -51,7 +51,7 @@
     position: relative
 .contenedor-traductor
   position: relative
-  background-color: #e1e8ff
+  background-color: #fff7da
   padding: 2em
   border-radius: 10px
   transition: height 0.5s ease-in-out
@@ -63,14 +63,12 @@
     bottom: 0
     right: 0
     transform: translateY(100%) translateX(-13%)
-    background-color: $color-secundario
+    background-color: $color-acento-botones
     border-radius: 0px 0px 10px 10px
     padding: 0.5em 1em
-    color: #fff
-    font-weight: bold
     cursor: pointer
     &:hover
-      background-color: darken(#6484f1, .8 )
+      background-color: darken($color-acento-botones, .8 )
 .mostrar
   display: none
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
@@ -78,9 +76,16 @@
   opacity: 1
   border: 0px
   background-image: url('../assets/curso/temas/flecha-blanca.svg') !important
+  @media (max-width: $bp-max-lg)
+    top: 90%
+    width: 25px
+    height: 25px
+    background-size: 10px 10px
 .slyder-a__bullets
   display: none
 .dialogo__chat__item__message
   button.dialogo__chat__item__message__translate-btn
     display: none
+.tarjeta-audio__texto
+  color: #3c3fa7 !important
       

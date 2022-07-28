@@ -6,19 +6,22 @@
       .titulo-principal__numero
         span 1
       h1 Verb To be in the past tense (Verbo To be en pasado)
-    .contenedor-traductor.mb-5
-      .contenedor-traductor__eng
-        p
-          span.r-3.fst-italic The past progressive is defined as the verb tense that tells us about past situations that were in process and are not considered finished at the moment in the past to which we refer. The key to recognizing the past progressive tense is that the main verb of the sentence has the ending "-ing" ("-ando" or "-endo", in Spanish) and is accompanied by the auxiliary verbs "was" or "were".
-            br
-            br
-            |Next we will see cases in which the past progressive tense is used:   
-      .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-        p El pasado progresivo se define como el tiempo verbal que nos habla de situaciones del pasado que estaban en proceso y no se dan por terminadas en el momento del pasado al cual se hace referencia. La clave para reconocer el tiempo pasado progresivo es que el verbo principal de la oración tiene la terminación "-ing"  ("-ando" o "-endo", en español) y se encuentra acompañado de los verbos auxiliares "was" o "were". 
-          br
-          br
-          |A continuación, verá casos en los que se usa el tiempo pasado progresivo:
-      a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción 
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c1.jpg', alt='')
+      .col-lg-7
+        .contenedor-traductor.mb-5
+          .contenedor-traductor__eng
+            p
+              span.r-3.fst-italic.fw-normal The past progressive is defined as the verb tense that tells us about past situations that were in process and are not considered finished at the moment in the past to which we refer. The key to recognizing the past progressive tense is that the main verb of the sentence has the ending "-ing" ("-ando" or "-endo", in Spanish) and is accompanied by the auxiliary verbs "was" or "were".
+                br
+                br
+                |Next we will see cases in which the past progressive tense is used:   
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
+            p El pasado progresivo se define como el tiempo verbal que nos habla de situaciones del pasado que estaban en proceso y no se dan por terminadas en el momento del pasado al cual se hace referencia. La clave para reconocer el tiempo pasado progresivo es que el verbo principal de la oración tiene la terminación "-ing"  ("-ando" o "-endo", en español) y se encuentra acompañado de los verbos auxiliares "was" o "were". 
+              br
+              br
+              |A continuación, verá casos en los que se usa el tiempo pasado progresivo:
+          a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción 
     br
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-amarilla ")
       .row(titulo="<span class= r-4 ><em>Events in progress at a specific time </em></span> / Eventos en progreso en un momento específico ").px-5
@@ -231,183 +234,49 @@
     Separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2.fst-italic 1.2. Affirmative, negative and interrogative structures (Estructuras afirmativas, negativas e interrogativas)
-    .contenedor-traductor.mb-5
-      .contenedor-traductor__eng
-        p
-          span.r-3.fst-italic Two points that must be highlighted when structuring sentences in the past progressive are that the verb "to be" is used as an auxiliary verb to help form the sentence and also that the main verb is put in the form of a present participle. Basically, if you already know how to structure sentences in the present progressive, structuring the past progressive is going to be very easy since it is practically the same, but with the verb "to be" in the simple past.
-            br
-            br
-            |We are going to see how these verbs interact with the rest of the words in the sentences in the past progressive.
-      .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
-        p Dos puntos que hay que resaltar a la hora de estructurar oraciones en pasado progresivo son que se usa el verbo "to be" como verbo auxiliar para ayudar a formar la oración y también que se pone el verbo principal en forma de participio presente. Básicamente si ya se sabe cómo estructurar oraciones en el presente progresivo, estructurar el pasado progresivo va a ser muy sencillo ya que es prácticamente lo mismo, pero con el verbo "to be" en pasado simple.
-          br
-          br
-          |Vamos a ver cómo estos verbos interactúan con el resto de palabras en las oraciones en pasado progresivo.
-      a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3') Ver traducción
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-6: img(src='@/assets/curso/temas/c2.svg', alt='Texto que describa la imagen' style='width: 304px').m-auto
+      .col-lg-8
+        .contenedor-traductor.mb-5
+          .contenedor-traductor__eng
+            p
+              span.r-3.fst-italic Two points that must be highlighted when structuring sentences in the past progressive are that the verb "to be" is used as an auxiliary verb to help form the sentence and also that the main verb is put in the form of a present participle. Basically, if you already know how to structure sentences in the present progressive, structuring the past progressive is going to be very easy since it is practically the same, but with the verb "to be" in the simple past.
+                br
+                br
+                |We are going to see how these verbs interact with the rest of the words in the sentences in the past progressive.
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
+            p Dos puntos que hay que resaltar a la hora de estructurar oraciones en pasado progresivo son que se usa el verbo "to be" como verbo auxiliar para ayudar a formar la oración y también que se pone el verbo principal en forma de participio presente. Básicamente si ya se sabe cómo estructurar oraciones en el presente progresivo, estructurar el pasado progresivo va a ser muy sencillo ya que es prácticamente lo mismo, pero con el verbo "to be" en pasado simple.
+              br
+              br
+              |Vamos a ver cómo estos verbos interactúan con el resto de palabras en las oraciones en pasado progresivo.
+          a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3') Ver traducción
     br
-    div(style='background-color: #ffe891').p-5.mb-5
+    div(style='background-color: #ffe891').p-lg-5.mb-5
       SlyderA
-        .slyder.px-5.mx-4
-          div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
-            h5.mb-0.me-5 Affirmative / Afirmativa
-          img.mb-5(src='@/assets/curso/temas/6.svg', alt='')
-          .row.mb-5
-            .col-lg-5
-              h5
-                span.r-4.fst-italic I 
-                  span.f-2 was 
-                  | living in Spain during the pandemic.
-              h5
-                span.r-4.fst-italic You 
-                  span.f-2 were 
-                  | drawing doodles in math class.
-              h5
-                span.r-4.fst-italic He 
-                  span.f-2 was 
-                  | playing football yesterday.
-              h5
-                span.r-4.fst-italic She 
-                  span.f-2 was 
-                  | flying in a helicopter.
-            .col-lg-5
-              h5
-                span.r-4.fst-italic It 
-                  span.f-2 was 
-                  | barking very loud.
-              h5
-                span.r-4.fst-italic We 
-                  span.f-2 were 
-                  | eating ice cream the whole day.
-              h5
-                span.r-4.fst-italic You 
-                  span.f-2 were 
-                  | cooking while they were eating.
-              h5
-                span.r-4.fst-italic They 
-                  span.f-2 were 
-                  | buying coffee when the doctor called them.
+        .slyder.px-lg-5.p-4.mx-4
+          img.d-lg-block.d-none.mb-5(src='@/assets/curso/temas/c3.svg', alt='')
+          img.d-lg-none.d-block.mb-5(src='@/assets/curso/temas/c4.svg', alt='')
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
             :audio="require('@/assets//audios/tema1/14.mp3')"
           )
-        .slyder.px-5.mx-4
-          div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
-            h5.mb-0.me-5 Negative / Negativa
-          img.mb-5(src='@/assets/curso/temas/7.svg', alt='')
-          .row.mb-5
-            .col-lg-5
-              h5
-                span.r-4.fst-italic I 
-                  span.f-2 was not 
-                  |  living in Spain.
-              h5
-                span.r-4.fst-italic You 
-                  span.f-2 were not 
-                  |  drawing doodles.
-              h5
-                span.r-4.fst-italic He 
-                  span.f-2 wasn’t  
-                  |  playing football.
-            .col-lg-5
-              h5
-                span.r-4.fst-italic It 
-                  span.f-2 wasn´t 
-                  | barking very loud.
-              h5
-                span.r-4.fst-italic We 
-                  span.f-2 weren’t 
-                  | eating ice cream.
-              h5
-                span.r-4.fst-italic You 
-                  span.f-2 were not
-                  | cooking lasagna.
+        .slyder.px-lg-5.p-4.mx-4
+          img.d-lg-block.d-none.mb-5(src='@/assets/curso/temas/c5.svg', alt='')
+          img.d-lg-none.d-block.mb-5(src='@/assets/curso/temas/c6.svg', alt='')
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
             :audio="require('@/assets//audios/tema1/15.mp3')"
           )
-        .slyder.px-5.mx-4
-          div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
-            h5.mb-0.me-5 “Yes” or “No” Questions / Preguntas de “Sí” o “No”
-          img.mb-5(src='@/assets/curso/temas/8.svg', alt='')
-          .row.mb-5
-            .col-lg-5
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Was 
-                  | i living in Spain? 
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Were 
-                  | you drawing doodles?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Was 
-                  | he playing football?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Was 
-                  | she flying in a helicopter?
-            .col-lg-5
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Was 
-                  | it barking very loud?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Were 
-                  | we eating ice cream?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Were 
-                  | you cooking lasagna?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Were 
-                  | they buying coffee?
+        .slyder.px-lg-5.p-4.mx-4
+          img.d-lg-block.d-none.mb-5(src='@/assets/curso/temas/c7.svg', alt='')
+          img.d-lg-none.d-block.mb-5(src='@/assets/curso/temas/c8.svg', alt='')
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
             :audio="require('@/assets//audios/tema1/16.mp3')"
           )
-        .slyder.px-5.mx-4
-          div(style='background-color: #6b8dff').p-3.d-inline-block.mb-3
-            h5.mb-0.me-5 Information Questions / Preguntas de información
-          img.mb-5(src='@/assets/curso/temas/9.svg', alt='')
-          .row.mb-5.align-items-center
-            .col-lg-3.lg-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/10.svg', alt='')
-            .col-lg-4
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 When was 
-                  | i living in Spain?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 What were 
-                  | you drawing?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Why was 
-                  | he playing football yesterday?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 How far was 
-                  | she flying in a helicopter?
-            .col-lg-5
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 How was 
-                  | it barking so loud?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Why were 
-                  | we eating the whole cake?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 What time were 
-                  | you cooking lasagna last night?
-              h5
-                span.r-4.fst-italic 
-                  span.f-2 Where were 
-                  | they buying a house a year ago?
+        .slyder.px-lg-5.p-4.mx-4
+          img.d-lg-block.d-none.mb-5(src='@/assets/curso/temas/c9.svg', alt='')
+          img.d-lg-none.d-block.mb-5(src='@/assets/curso/temas/c10.svg', alt='')
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
             texto=""
             :audio="require('@/assets//audios/tema1/17.mp3')"

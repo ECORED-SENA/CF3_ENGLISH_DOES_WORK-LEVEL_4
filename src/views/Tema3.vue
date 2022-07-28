@@ -8,7 +8,7 @@
       h1 <em>Reported speech</em> (Discurso indirecto)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3
-        img(src='@/assets/curso/temas/11.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/c11.png', alt='Texto que describa la imagen')
       .col-lg-8
         .contenedor-traductor.mb-5
           .contenedor-traductor__eng
@@ -25,7 +25,7 @@
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/K3B4LsxubB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos='fade-right') Existen algunos aspectos importantes que deben tenerse en cuenta al informar:
     .row.justify-content-center
       .col-lg-6
@@ -99,13 +99,16 @@
     Separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 <em>3.1. Past simple</em> (Pasado simple)
-    .contenedor-traductor.mb-5
-      .contenedor-traductor__eng
-        p
-          span.r-3.fst-italic To report items originally written or said in the simple present, the message must be shown in the form of the simple past. If the original message is with the verb "to be" in present (am / is / are), the report will be made with the verb “to be” in past (was / were). If the original message is with another verb than the verb “to be”, it must be reported in the past simple using the rules for regular and irregular verbs in English.    
-      .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-        p Para reportar elementos escritos o dichos originalmente en presente simple se debe mostrar el mensaje en forma de pasado simple. En caso de que el mensaje original sea con el verbo “to be” en presente (am / is / are), el reporte se hará con el verbo “to be” en pasado (was / were). Si el mensaje original es con un verbo diferente al verbo “to be”, se deberá reportar en pasado simple, utilizando las reglas de los verbos regulares e irregulares en inglés.
-      a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c12.png', alt='')
+      .col-lg-7
+        .contenedor-traductor.mb-5
+          .contenedor-traductor__eng
+            p
+              span.r-3.fst-italic To report items originally written or said in the simple present, the message must be shown in the form of the simple past. If the original message is with the verb "to be" in present (am / is / are), the report will be made with the verb “to be” in past (was / were). If the original message is with another verb than the verb “to be”, it must be reported in the past simple using the rules for regular and irregular verbs in English.    
+          .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
+            p Para reportar elementos escritos o dichos originalmente en presente simple se debe mostrar el mensaje en forma de pasado simple. En caso de que el mensaje original sea con el verbo “to be” en presente (am / is / are), el reporte se hará con el verbo “to be” en pasado (was / were). Si el mensaje original es con un verbo diferente al verbo “to be”, se deberá reportar en pasado simple, utilizando las reglas de los verbos regulares e irregulares en inglés.
+          a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
     p.mb-5(data-aos='fade-right') Por ejemplo: 
     img(src='@/assets/curso/temas/13.svg', alt='')
     Separador
@@ -177,7 +180,7 @@
           h5.fst-italic.text-center.mb-0.text-white Use different expressions in order to report:
         div.tarjeta-scroll(style='background-color: #e1e8ff').p-4
           p(data-aos='fade-right')
-            span.r-4.fst-italic.fw-normal Said (that): For affirmative and negative sentences you can use just "said" or also "said that".
+            span.r-3.fst-italic.fw-normal Said (that): For affirmative and negative sentences you can use just "said" or also "said that".
           div(style='background-color: #ffd947').p-3.d-inline-block.mb-3
             h6.mb-0.me-4 Speech
           .row.justify-content-center.mb-5
@@ -199,7 +202,7 @@
                 :audio="require('@/assets//audios/tema3/12.mp3')"
               )
           h5.fst-italic.mb-3
-            span.r-4 Asked if: For questions.
+            span.r-3 Asked if: For questions.
           div(style='background-color: #ffd947').p-3.d-inline-block.mb-3
             h6.mb-0.me-4 Speech
           .row.justify-content-center.mb-5
@@ -221,7 +224,7 @@
                 :audio="require('@/assets//audios/tema3/14.mp3')"
               )
           h5.fst-italic.mb-3
-            span.r-4 Told someone to: For imperative sentences.
+            span.r-3 Told someone to: For imperative sentences.
           div(style='background-color: #ffd947').p-3.d-inline-block.mb-3
             h6.mb-0.me-4 Speech
           .row.justify-content-center.mb-5
