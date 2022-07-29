@@ -278,7 +278,7 @@ export default {
           textoIng:
             'Clara, I missed biology class on Monday. What did the teacher *** about the final project?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema3/1.mp3'),
+          audio: require('@/assets/audios/a3/a1.wav'),
           palabra: 'say',
         },
         {
@@ -286,21 +286,21 @@ export default {
           textoIng:
             'He *** he liked most of the essays and that he was choosing the best ones for the science fair.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema3/1.mp3'),
+          audio: require('@/assets/audios/a3/a2.wav'),
           palabra: 'said',
         },
         {
           personaje: 'Pedro',
           textoIng: 'Really? I&#39m so nervous. Do you think he *** ours?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema3/1.mp3'),
+          audio: require('@/assets/audios/a3/a3.wav'),
           palabra: 'liked',
         },
         {
           personaje: 'Clara',
           textoIng: 'He hasn&#39t *** anything about it. We will have to wait.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema3/1.mp3'),
+          audio: require('@/assets/audios/a3/a4.wav'),
           palabra: 'said',
         },
       ],
