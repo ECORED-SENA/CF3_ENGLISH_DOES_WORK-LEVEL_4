@@ -148,7 +148,7 @@
                   span.fw-bold 1era persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                  texto="it was"
+                  texto="we were"
                   :audio="require('@/assets//audios/tema1/11.mp3')"
                   )
               tr

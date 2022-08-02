@@ -45,7 +45,7 @@
               p Se utiliza para hablar de un momento o situación en particular.
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                texto="It is impossible to predict when it will happen."
+                texto="It is impossible to predict when it will rain."
                 :audio="require('@/assets//audios/tema2/1.mp3')"
               )
           tr
@@ -71,7 +71,7 @@
               p Hace referencia a “una ocasión anterior”.
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                texto="Sandra can come here whenever she wants."
+                texto="David went home before ir rained"
                 :audio="require('@/assets//audios/tema2/3.mp3')"
               )
           tr
@@ -123,7 +123,7 @@
               p Hace referencia a “desde entonces hasta ahora, en algún momento o en cualquier momento entre entonces y ahora; después".
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                texto="The plane does not leave until ten o'clock."
+                texto="Bogotá has changed since the last time I was here."
                 :audio="require('@/assets//audios/tema2/7.mp3')"
               )
     p.mb-5(data-aos='fade-right') A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema.
