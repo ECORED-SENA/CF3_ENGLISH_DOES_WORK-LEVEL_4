@@ -121,7 +121,7 @@
         .contenedor-traductor.mb-5
           .contenedor-traductor__eng
             p
-              span.r-3.fst-italic To report messages that were originally said or written in the present progressive tense, it is necessary to use the past progressive. There will be no change in the main verb since it will remain in its present participle form with the ending “-ing”, but the auxiliary will change from being the verb “to be” in the present (am / is / are) to the verb “to be” in the past tense (was / were). 
+              span.r-3.fst-italic To report messages that were originally said or written in the present progressive tense, it is necessary to use the past progressive. There will be no change in the main verb since it will remain in its present participle form with the ending “-ing”, but the auxiliary will change from being the verb “to be” in the present (am / is / are) to the verb “to be” in the past tense (was/were). 
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
             p Para reportar mensajes que han sido dichos o escritos originalmente en el tiempo presente progresivo, es necesario utilizar el pasado progresivo. No habrá ningún cambio en el verbo principal, ya que se mantendrá en su forma de participio presente, con la terminación “-ing”, pero el auxiliar pasará de ser el verbo <em>“to be”</em> en presente <em>(am/is/are)</em> al verbo <em>“to be”</em> en pasado <em>(was/were)</em>.
           a.boton-traduccion(@click='ocultarEsp3 = !ocultarEsp3') Ver traducción
