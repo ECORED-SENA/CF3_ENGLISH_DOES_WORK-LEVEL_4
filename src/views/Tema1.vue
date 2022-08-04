@@ -12,12 +12,12 @@
         .contenedor-traductor.mb-5
           .contenedor-traductor__eng
             p
-              span.r-3.fst-italic.fw-normal The past progressive is defined as the verb tense that tells us about past situations that were in process and are not considered finished at the moment in the past to which we refer. The key to recognizing the past progressive tense is that the main verb of the sentence has the ending "-ing" ("-ando" or "-endo", in Spanish) and is accompanied by the auxiliary verbs "was" or "were".
+              span.r-3.fst-italic.fw-normal The past progressive is defined as the verb tense that tells us about past situations that were in process and are not considered finished at the moment in the past to which we refer. The key to recognizing the past progressive tense is that the main verb of the sentence has the ending <em>"-ing"</em> ("-ando" or "-endo", in Spanish) and is accompanied by the auxiliary verbs "was" or "were".
                 br
                 br
                 |Next we will see cases in which the past progressive tense is used:   
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            p El pasado progresivo se define como el tiempo verbal que nos habla de situaciones del pasado que estaban en proceso y no se dan por terminadas en el momento del pasado al cual se hace referencia. La clave para reconocer el tiempo pasado progresivo es que el verbo principal de la oración tiene la terminación "-ing"  ("-ando" o "-endo", en español) y se encuentra acompañado de los verbos auxiliares "was" o "were". 
+            p El pasado progresivo se define como el tiempo verbal que nos habla de situaciones del pasado que estaban en proceso y no se dan por terminadas en el momento del pasado al cual se hace referencia. La clave para reconocer el tiempo pasado progresivo es que el verbo principal de la oración tiene la terminación <em>"-ing"</em>  ("-ando" o "-endo", en español) y se encuentra acompañado de los verbos auxiliares <em>"was"</em> o <em>"were".</em> 
               br
               br
               |A continuación, verá casos en los que se usa el tiempo pasado progresivo:
@@ -34,7 +34,7 @@
             texto="I was doing homework at 5:00 p.m."
             :audio="require('@/assets//audios/tema1/1.mp3')"
           )
-      .row(titulo="<span class= r-4 fst-italic><em>When an action is interrupted by anothe</em></span> / Cuando una acción es interrumpida por otra ").px-5
+      .row(titulo="<span class= r-4 fst-italic><em>When an action is interrupted by another</em></span> / Cuando una acción es interrumpida por otra ").px-5
         .col-md-3
           img.rounded-3(src='@/assets/curso/temas/1.jpg', alt='Texto que describa la imagen')
         .col-md-8.mb-4.mb-md-0
@@ -75,11 +75,11 @@
             :audio="require('@/assets//audios/tema1/5.mp3')"
           )
     p.mb-5(data-aos='fade-right')
-      span.r-4.fst-italic.fw-bold For the past progressive tense, the verb "to be" is used, conjugated in the simple past, as an auxiliary. Let's remember how to conjugate it:
+      span.r-4.fst-italic.fw-bold For the past progressive tense, the verb <em>"to be"</em> is used, conjugated in the simple past, as an auxiliary. Let's remember how to conjugate it:
       br
       br
       |Para el tiempo pasado progresivo, se hace uso del verbo 
-      span.r-4.fst-italic.fw-bold "to be"
+      span.r-4.fst-italic.fw-bold <em>"to be"</em>
       | , conjugado en pasado simple, como auxiliar. Recordemos cómo conjugarlo:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1
@@ -101,7 +101,7 @@
                 td 
                   span.r-4.fst-italic.fw-bold 1st person
                   br
-                  span.fw-bold 1era persona
+                  span.fw-bold 1.ª persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="I was"
@@ -112,7 +112,7 @@
                   span.r-4.fst-italic.fw-bold 2nd person
 
                   br
-                  span.fw-bold 2nda persona
+                  span.fw-bold 2.ª persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="you were"
@@ -122,7 +122,7 @@
                 td(rowspan='3') 
                   span.r-4.fst-italic.fw-bold 3rd person
                   br
-                  span.fw-bold 3era persona
+                  span.fw-bold 3.ª persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="he was"
@@ -145,7 +145,7 @@
                 td 
                   span.r-4.fst-italic.fw-bold 1st person
                   br
-                  span.fw-bold 1era persona
+                  span.fw-bold 1.ª persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="we were"
@@ -156,7 +156,7 @@
                   span.r-4.fst-italic.fw-bold 2nd person
 
                   br
-                  span.fw-bold 2nda persona
+                  span.fw-bold 2.ª persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="you were"
@@ -167,7 +167,7 @@
                   span.r-4.fst-italic.fw-bold 3rd person
 
                   br
-                  span.fw-bold 3era persona
+                  span.fw-bold 3.ª persona
                 td(style='background-color: #fff7da')
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="they were"
@@ -179,7 +179,7 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2.fst-italic 1.1. -ing verbs (Verbos terminados en -ing)
+      h2 1.1. <em>-ing verbs</em> (Verbos terminados en -ing)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/5.png', alt='Texto que describa la imagen')
@@ -187,15 +187,15 @@
         .contenedor-traductor.mb-5
           .contenedor-traductor__eng
             p
-              span.r-3.fst-italic To use the progressive tenses (also called continuous), we need to use the main verbs in a verbal pattern called "present participle", a pattern that is characterized by the fact that the verb always ends in "-ing".
+              span.r-3.fst-italic To use the progressive tenses (also called continuous), we need to use the main verbs in a verbal pattern called "present participle", a pattern that is characterized by the fact that the verb always ends in <em>"-ing"</em>.
                 br
                 br
-                |To write a verb ending in "-ing" we need to know the correct spelling, that is why the rules for correctly writing verbs ending in "-ing" are listed below:  
+                |To write a verb ending in <em>"-ing"</em> we need to know the correct spelling, that is why the rules for correctly writing verbs ending in <em>"-ing"</em> are listed below:  
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-            p Para usar los tiempos progresivos (también llamados continuos), se necesita usar los verbos principales en un patrón verbal llamado "participio presente", patrón que se caracteriza porque siempre el verbo termina en "-ing".
+            p Para usar los tiempos progresivos (también llamados continuos), se necesita usar los verbos principales en un patrón verbal llamado "participio presente", patrón que se caracteriza porque siempre el verbo termina en <em>"-ing"</em>.
               br
               br
-              |Para escribir un verbo terminado en "-ing", se necesita saber la ortografía correcta, es por eso que a continuación están enunciadas las reglas para escribir correctamente verbos terminados en "-ing":
+              |Para escribir un verbo terminado en <em>"-ing"</em>, se necesita saber la ortografía correcta, es por eso que a continuación están enunciadas las reglas para escribir correctamente verbos terminados en <em>"-ing"</em>:
           a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
     figure.mb-5
       .video
@@ -233,19 +233,19 @@
                 i.fas.fa-file-download
     Separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2.fst-italic 1.2. Affirmative, negative and interrogative structures (Estructuras afirmativas, negativas e interrogativas)
+      h2 1.2. <em>Affirmative, negative and interrogative structures</em> (Estructuras afirmativas, negativas e interrogativas)
     .row.justify-content-center.mb-5
       .col-lg-4.col-6: img(src='@/assets/curso/temas/c2.svg', alt='Texto que describa la imagen' style='width: 304px').m-auto
       .col-lg-8
         .contenedor-traductor.mb-5
           .contenedor-traductor__eng
             p
-              span.r-3.fst-italic Two points that must be highlighted when structuring sentences in the past progressive are that the verb "to be" is used as an auxiliary verb to help form the sentence and also that the main verb is put in the form of a present participle. Basically, if you already know how to structure sentences in the present progressive, structuring the past progressive is going to be very easy since it is practically the same, but with the verb "to be" in the simple past.
+              span.r-3.fst-italic Two points that must be highlighted when structuring sentences in the past progressive are that the verb <em>"to be"</em> is used as an auxiliary verb to help form the sentence and also that the main verb is put in the form of a present participle. Basically, if you already know how to structure sentences in the present progressive, structuring the past progressive is going to be very easy since it is practically the same, but with the verb <em>"to be"</em> in the simple past.
                 br
                 br
                 |We are going to see how these verbs interact with the rest of the words in the sentences in the past progressive.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp3}")
-            p Dos puntos que hay que resaltar a la hora de estructurar oraciones en pasado progresivo son que se usa el verbo "to be" como verbo auxiliar para ayudar a formar la oración y también que se pone el verbo principal en forma de participio presente. Básicamente si ya se sabe cómo estructurar oraciones en el presente progresivo, estructurar el pasado progresivo va a ser muy sencillo ya que es prácticamente lo mismo, pero con el verbo "to be" en pasado simple.
+            p Dos puntos que hay que resaltar a la hora de estructurar oraciones en pasado progresivo son que se usa el verbo <em>"to be"</em> como verbo auxiliar para ayudar a formar la oración y también que se pone el verbo principal en forma de participio presente. Básicamente si ya se sabe cómo estructurar oraciones en el presente progresivo, estructurar el pasado progresivo va a ser muy sencillo ya que es prácticamente lo mismo, pero con el verbo <em>"to be"</em> en pasado simple.
               br
               br
               |Vamos a ver cómo estos verbos interactúan con el resto de palabras en las oraciones en pasado progresivo.

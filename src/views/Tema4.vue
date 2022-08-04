@@ -157,7 +157,7 @@
             | Tener clases
       .tarjeta.tarjeta-bg.p-4.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/temas/44.jpg')})`}" style='height: 380px')
         .tarjeta.bg-white.p-3.w-100
-          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema4/17.mp3')")
+          Audio.color-acento-botones.mb-2.m-auto(:audio="require('@/assets/audios/tema4/18.mp3')")
           p.text-center
             span.r-4.fst-italic.fw-bold Have a drink 
 

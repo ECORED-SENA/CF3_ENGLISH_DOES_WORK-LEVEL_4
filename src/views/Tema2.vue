@@ -15,7 +15,9 @@
             p
               span.r-3.fst-italic Adverbs of time are words used to modify a complete sentence, a verb, another adverb, or an adjective, and they tell us when an action happened, but they can also tell us for how long and how often. Adverbs of time are invariable (they do not change according to gender or number, that is, they have neither masculine nor feminine, neither singular nor plural) and are extremely common in the English language.        
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            p Los adverbios de tiempo son palabras que sirven para modificar una oración completa, un verbo, otro adverbio o un adjetivo, y nos dicen cuándo sucedió una acción, pero también pueden decirnos por cuánto tiempo y con qué frecuencia. Los adverbios de tiempo son invariables (no cambian según género o número, o sea, no tienen ni masculino ni femenino, ni singular ni plural) y son extremadamente comunes en el idioma inglés.
+            p Los adverbios de tiempo son palabras que sirven para modificar una oración completa, un verbo, otro adverbio o un adjetivo, y nos dicen cuándo sucedió una acción, pero también pueden 
+              span.r-4 decirnos por cuánto tiempo y con qué frecuencia. 
+              | Los adverbios de tiempo son invariables (no cambian según género o número, o sea, no tienen ni masculino ni femenino, ni singular ni plural) y son extremadamente comunes en el idioma inglés.
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
     p.mb-5(data-aos='fade-right') A continuación, podemos observar, en la siguiente tabla, los adverbios de tiempo y su uso en el idioma inglés.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -29,11 +31,11 @@
             span.fw-bold Adverbios de tiempo
             
           th(style='background-color: #c4d1ff')
-            span.r-3.fst-italic Function
-            span.fw-bold /Función
+            span.r-3.fst-italic Function 
+            span.fw-bold / Función
           th(style='background-color: #ffe891')
-            span.r-3.fst-italic Example sentence
-            span.fw-bold /Oración de ejemplo
+            span.r-3.fst-italic Example sentence 
+            span.fw-bold / Oración de ejemplo
         tbody
           tr
             td.text-center
@@ -71,7 +73,7 @@
               p Hace referencia a “una ocasión anterior”.
             td
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                texto="David went home before ir rained"
+                texto="David went home before it rained"
                 :audio="require('@/assets//audios/tema2/3.mp3')"
               )
           tr
@@ -162,7 +164,7 @@ export default {
           textoIng: 'No, I learned to dance *** highschool',
           textoEsp: '',
           audio: require('@/assets/audios/a2/a2.wav'),
-          palabra: 'until',
+          palabra: 'before',
         },
         {
           personaje: 'Lucia',
@@ -176,7 +178,7 @@ export default {
             'For sure! I was enjoying dancing as a hobby *** I got to know singing.',
           textoEsp: '',
           audio: require('@/assets/audios/a2/a4.wav'),
-          palabra: '',
+          palabra: 'until',
         },
         {
           personaje: 'Lucia',
