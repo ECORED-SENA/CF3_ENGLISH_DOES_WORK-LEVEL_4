@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Verb To be in the past tense (Verbo To be en pasado)
+      h1 <em>Past progressive</em> (Pasado progresivo)  
     .row.justify-content-center.mb-5
       .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c1.jpg', alt='')
       .col-lg-7
