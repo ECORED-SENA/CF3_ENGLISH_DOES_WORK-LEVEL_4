@@ -249,7 +249,7 @@
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Past simple - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
 </template>
@@ -287,7 +287,7 @@ export default {
             'He *** he liked most of the essays and that he was choosing the best ones for the science fair.',
           textoEsp: '',
           audio: require('@/assets/audios/a3/a2.wav'),
-          palabra: 'said',
+          palabra: 'said(1)',
         },
         {
           personaje: 'Pedro',
@@ -301,7 +301,7 @@ export default {
           textoIng: 'He hasn&#39t *** anything about it. We will have to wait.',
           textoEsp: '',
           audio: require('@/assets/audios/a3/a4.wav'),
-          palabra: 'said',
+          palabra: 'said(2)',
         },
       ],
     },

@@ -132,7 +132,7 @@
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Adverbs of time for the past tense - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 </template>
 
 <script>
@@ -157,7 +157,7 @@ export default {
           textoIng: 'Rodrigo, did you learn how to dance *** highschool?',
           textoEsp: '',
           audio: require('@/assets/audios/a2/a1.wav'),
-          palabra: 'before',
+          palabra: 'after',
         },
         {
           personaje: 'Rodrigo',

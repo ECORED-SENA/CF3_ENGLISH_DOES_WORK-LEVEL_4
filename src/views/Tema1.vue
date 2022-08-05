@@ -303,7 +303,9 @@
                     span.r-1.fst-italic "was not" 
                     | como su contracción 
                     span.r-1.fst-italic "wasn't" 
-                    | son correctos, lo mismo con "were not" y su contracción 
+                    | son correctos, lo mismo con 
+                    span.r-1.fst-italic "were not" 
+                    | y su contracción 
                     span.r-1.fst-italic "weren't". 
                     | Pero hay que tener en cuenta que para contextos formales no se recomienda usar contracciones.
       .col-lg-6
@@ -327,7 +329,7 @@
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Affirmative, negative and interrogative structures - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
 
